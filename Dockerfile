@@ -1,9 +1,9 @@
-FROM node:10-slim
+FROM node:14-slim
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/aaronpanch/action-serverless"
-LABEL homepage="https://github.com/aaronpanch/action-serverless"
-LABEL maintainer="Aaron Panchal <aaron.panchal@gmail.com>"
+LABEL repository="https://github.com/Noeza/action-serverless"
+LABEL homepage="https://github.com/Noeza/action-serverless"
+LABEL maintainer="Noel Moyo <mcheart90@gmail.com>"
 
 LABEL "com.github.actions.name"="GitHub Action for Serverless Framework"
 LABEL "com.github.actions.description"="Wraps the Serverless CLI"
